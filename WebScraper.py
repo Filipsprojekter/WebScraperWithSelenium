@@ -12,7 +12,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
 options.add_argument('--incognito')
 options.add_argument('--headless')
-driver = webdriver.Chrome("C:\\Users\\fdh_0\\AppData\\Roaming\\Python\\Python38\\Scripts\\chromedriver.exe", chrome_options=options)
+driver = webdriver.Chrome(path, chrome_options=options)
 
 search_term = str(raw_input("What are you looking for?\n:"))
 
